@@ -1,4 +1,4 @@
-## Interface: 80200
+## Interface: 80300
 ## Title: AutoGem
 ## Notes: Automatically regem all available sockets to a stat type
 ## Author: Tundra
