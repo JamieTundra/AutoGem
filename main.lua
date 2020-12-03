@@ -9,11 +9,11 @@ SLASH_AUTOGEM8 = '/ag haste'
 SLASH_AUTOGEM9 = '/autogem mastery'
 SLASH_AUTOGEM10 = '/ag mastery'
 
-local crit = 168639
-local vers = 168642
-local haste = 168641
-local mastery = 168640
-local slotIDs = { 6, 7, 8, 9 , 10, 11, 12, 13, 14, 16, 17 }
+local crit = 311863
+local vers = 311859
+local haste = 311865
+local mastery = 311864
+local slotIDs = { 1, 2, 3, 5, 6, 7, 8, 9 , 10, 11, 12, 13, 14, 15, 16, 17, 18 }
  
 
 local function GemAll(i,z)
@@ -71,4 +71,3 @@ local function GemHandler(gemType)
 end
 
 SlashCmdList["AUTOGEM"] = GemHandler;
-

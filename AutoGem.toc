@@ -1,8 +1,11 @@
-## Interface: 80300
+## Interface: 90002
 ## Title: AutoGem
 ## Notes: Automatically regem all available sockets to a stat type
 ## Author: Tundra
-## Version: 1.0.0
-## SavedVariables: 
-## OptionalDeps: 
+## Version: 2.0.0
+## DefaultState: enabled
+## X-Category: Map
+## X-eMail: jamietundra @ gmail DOT com
+## X-Curse-Project-ID: 402897
+## OptionalDeps:
 main.lua
