@@ -9,10 +9,10 @@ SLASH_AUTOGEM8 = '/ag haste'
 SLASH_AUTOGEM9 = '/autogem mastery'
 SLASH_AUTOGEM10 = '/ag mastery'
 
-local crit = 311863
-local vers = 311859
-local haste = 311865
-local mastery = 311864
+local crit = 173127
+local vers = 173129
+local haste = 173128
+local mastery = 173130
 local slotIDs = { 1, 2, 3, 5, 6, 7, 8, 9 , 10, 11, 12, 13, 14, 15, 16, 17, 18 }
  
 
@@ -51,7 +51,7 @@ local function GetGem(gemType)
 	end
 	
 	if not found then
-	message("No gem found in bags!!!")
+	DEFAULT_CHAT_FRAME:AddMessage("No gem found in bags!!!");
 	end
 end
 
@@ -66,7 +66,7 @@ local function GemHandler(gemType)
 	elseif (string.find(gemType, "mastery")) then
         GetGem("mastery")
 	else
-		message("Please specify a valid stat type")
+		DEFAULT_CHAT_FRAME:AddMessage("Please specify a valid stat type");
 	end
 end
 
